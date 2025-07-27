@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+header {
+	text-align:end;
+	background-color: #af6f6f;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.banner {
+	background-image: url("banner.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.banner h1 {
+	font-size: 48px;
+	margin-top: 0;
+}
+
+.banner p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #666;
+}
+
+.games {
+	background-color: #f0f0f0;
+	padding: 50px;
+}
+
+.games h2 {
+	font-size:25px;
+}
+
+footer{
+	background-color: black;
+	padding: 10px;
+}
